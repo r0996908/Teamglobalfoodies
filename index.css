@@ -1,0 +1,246 @@
+body {
+  background-color: #363333;
+  color: white;
+  font-family: Poppins;
+}
+
+nav {
+  color: white;
+  display: flex;
+}
+
+nav img {
+  width: 2em;
+}
+
+.logo {
+  padding: 20px;
+}
+
+nav div {
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+
+nav div a {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  font-weight: bold;
+  background-image: url(../images/homepage\ foto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+
+main article {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+main article div {
+  margin-right: 20px;
+}
+
+main section a {
+  font-family: Amiko;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  background-color: #d34ecd;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #0464a0;
+}
+
+footer .hi {
+  display: flex;
+  justify-content: space-around;
+}
+footer div {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav {
+    color: white;
+    display: flex;
+  }
+
+  nav img {
+    width: 2em;
+  }
+
+  .logo {
+    padding: 20px;
+  }
+
+  nav div {
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  header {
+    font-weight: bold;
+    background-image: url(../images/homepage\ foto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px;
+  }
+
+  header p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+  }
+  .producten {
+    margin: 30px;
+  }
+  section h3 {
+    font-family: Amiko;
+    padding: 20px;
+  }
+
+  section h4 {
+    text-align: right;
+  }
+  section p {
+    text-align: right;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  section article {
+    margin: 40px;
+    margin-right: 0px;
+    gap: 3em;
+  }
+
+  .product1 {
+    margin-left: 0px;
+  }
+
+  .arrows {
+    position: absolute;
+    padding: 10px;
+    margin-top: 80px;
+  }
+
+  .arrow {
+    position: absolute;
+    padding: 10px;
+    margin-top: 80px;
+    right: 0%;
+  }
+
+  .activiteiten {
+    margin: 30px;
+  }
+
+  main p {
+    font-weight: light;
+  }
+
+  main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30 0 0 30;
+    gap: 20px;
+  }
+
+  .kart {
+    background-color: #f2a20d;
+    border-radius: 29px;
+    margin: 20px;
+  }
+
+  main div {
+    font-family: Amiko;
+    padding: 10px;
+  }
+
+  .ball {
+    background-color: #0464a0;
+    border-radius: 29px;
+    margin: 20px;
+  }
+
+  .bowl {
+    background-color: #d34ecd;
+    border-radius: 29px;
+    margin: 20px;
+  }
+
+  .room {
+    background-color: #1f8f9d;
+    border-radius: 29px;
+    margin: 20px;
+  }
+
+  .kar {
+    background-color: #f2a20d;
+    border-radius: 29px;
+    margin: 20px;
+  }
+}
+
+.kart {
+  background-color: #f2a20d;
+  border-radius: 29px;
+  margin: 20px;
+}
+
+.ball {
+  background-color: #0464a0;
+  border-radius: 29px;
+  margin: 20px;
+}
+
+.bowl {
+  background-color: #d34ecd;
+  border-radius: 29px;
+  margin: 20px;
+}
+
+.room {
+  background-color: #1f8f9d;
+  border-radius: 29px;
+  margin: 20px;
+}
+
+.kar {
+  background-color: #f2a20d;
+  border-radius: 29px;
+  margin: 20px;
+}
