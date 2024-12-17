@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #363333; /* Achtergrondkleur */
+  color: #fff; /* Tekstkleur */
+}
+
+header {
+  background-color: #363333; /* Achtergrondkleur nav */
+  padding: 10px 20px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end; /* Alles naar rechts uitgelijnen */
+  align-items: center;
+}
+
+.menu-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* menu-items */
+}
+
+.menu-links li {
+  padding: 10px 20px;
+}
+
+.menu-links li a {
+  text-decoration: none;
+  color: #ffffff; /* Kleur van de links */
+  font-weight: bold;
+}
+
+/*hover extra tag?*/
+
+/* Winkelkar */
+.shopping-cart {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  margin-left: 20px; /*winkelkar */
+}
+
+footer {
+  background-color: var(--donker-blauw, #0464a0); /* Achtergrondkleur footer */
+  color: #fff; /* Tekstkleur footer "wit" */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-rechts {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-rechts {
+  display: inline;
+}
+
+.footer-rechts {
+  color: #fff; /* Kleur van de links in de footer */
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+/*test*/
+:root {
+  --off-white: #f5f5f5;
+  --primary-font: "Amiko";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font); /*  font-family */
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--off-black, #363333); /* Achtergrondkleur nav */
+  padding: 10px 20px;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+header nav a {
+  color: #fff; /* Tekstkleur nav */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.small {
+  font-family: var(--primary-font); /* font */
+  padding: 20px;
+  color: #fff; /* kleur */
+}
+
+.flamelogo {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav a {
+    margin: 5px 0;
+  }
+}
+
+.images .flamelogo {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 480px) {
+  .images {
+    flex-direction: column;
+  }
+}
+footer {
+  background-color: #0464a0; /* Achtergrondkleur footer */
+  color: #ffffff !important; /* Tekstkleur*/
+  padding: 20px 0;
+  text-align: left;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links li a {
+  font-family: Aniko;
+  color: #ffffff !important; /* Kleur van de links in de footer */
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive  */
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .social-media {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 0 10px;
+  }
+
+  .social-media img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.logo-footer {
+  width: 5px;
+  height: 5px;
+  display: flex;
+}
