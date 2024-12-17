@@ -1,0 +1,196 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Amiko", serif;
+    font-weight: 400;
+    
+    color: white;
+    line-height: 1.6;
+    background-color: #363333;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+    color: #fff;
+    padding: 10px 20px;
+    position: relative; 
+  }
+  
+  .menu-icon {
+    margin-left: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 10; 
+  }
+  
+  
+  .menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  header nav ul {
+    display: none; 
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+   text-align: end;
+  
+    
+  }
+  
+  #menu-toggle:checked + .menu-icon + nav ul {
+    display: flex;
+  }
+  
+  .over-ons {
+    padding: 40px;
+  }
+  .over-ons h1 {
+    font-size: 2rem;
+  }
+  .over-ons h2 {
+    margin: 10px 0;
+  
+  }
+  .over-ons p {
+    margin-bottom: 10px;
+  }
+  
+  
+  .qr-section {
+    padding: 20px;
+    background-color: #48b7c6;
+    color: #fff;
+    text-align: center;
+    
+  }
+  .qr-section img {
+    margin-top: 10px;
+    width: 150px;
+    
+  }
+  
+  .funventures {
+    padding: 40px;
+  }
+  .funventures h2 {
+    
+    margin-bottom: 10px;
+  }
+  .funventures ul {
+    margin: 10px 0;
+  }
+  .funventures img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  
+  .missie-visie {
+    padding: 20px;
+    
+  }
+  .cta-button {
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+   
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0464A0;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .footer-logo img {
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+  
+    .menu-icon {
+      display: none; 
+    }
+  
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      position: static; 
+      background: none;
+      gap: 20px;
+    }
+  
+  
+    .qr-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      padding: 40px;
+    }
+    .qr-code img {
+      margin: 0;
+    }
+  
+    .funventures {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+   
+    footer {
+      display: flex;
+      justify-content: space-around;
+      text-align: left;
+    }
+  }
+  
