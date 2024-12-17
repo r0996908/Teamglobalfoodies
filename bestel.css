@@ -1,0 +1,172 @@
+/* Navigatiebalk */
+header {
+    background-color: #363333; /* Donkergrijze achtergrond */
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 80px; /* Pas de hoogte van het logo aan */
+
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #e800a4; /* Hover-kleur */
+}
+
+.cart-icon a {
+    font-size: 1.2rem;
+}
+
+
+/* Basis reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #363333; /* Donkergrijs achtergrond */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 120%;
+    max-width: 2000px;
+    margin-right: 800px;
+    margin-bottom: 10px;
+    background-color: #363333;
+    padding: 60px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+h2 {
+    padding-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    padding-top: 100px;
+    
+}
+
+.form-group {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.form-group.full-width {
+    flex-direction: column;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 40px;
+    border-color: #F5F5F5;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: #6e6e6e;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+input[type="text"]::placeholder {
+    color: #d1d1d1;
+   
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 50px;
+}
+
+.form-check label {
+    margin-left: 10px;
+    font-size: 1.3rem;
+
+}
+
+.bezorg-opties {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 70px;
+    margin-right: 120px;
+}
+
+.btn {
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bezorg {
+    background-color: #7a7a7a;
+}
+
+.ophalen {
+    background-color: #7a7a7a;
+}
+
+.verder {
+    background-color: #e800a4;
+    text-align: center;
+    margin-right: 120px;
+}
+
+.btn img {
+    height: 20px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
