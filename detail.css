@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Amiko;
 }
 
 body {
@@ -67,6 +67,10 @@ nav ul li {
   margin: 0 15px;
 }
 
+.product-details .images img {
+  width: 500px;
+}
+
 .product-details {
   display: flex;
   justify-content: space-between;
@@ -93,7 +97,7 @@ nav ul li {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: #ff4dd2;
+  background-color: #1f8f9d;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
@@ -101,7 +105,7 @@ nav ul li {
 
 .add-to-cart {
   margin-top: 20px;
-  background-color: #d533b6;
+  background-color: #d34ecd;
 }
 
 /* Shop Page */
