@@ -48,7 +48,11 @@ header {
 main article {
   display: flex;
   flex-direction: row;
-  margin-right: 30px;
+}
+
+main article div {
+  padding-left: 20px;
+  padding-top: 30px;
 }
 
 main article div {
