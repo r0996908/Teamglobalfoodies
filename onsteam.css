@@ -154,50 +154,116 @@ header nav a:hover {
   }
 }
 footer {
-  background-color: #0464a0; /* Achtergrondkleur footer */
-  color: #ffffff !important; /* Tekstkleur*/
-  padding: 20px 0;
-  text-align: left;
+  background-color: #0464a0;
+  padding: 30px 30px;
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer-links {
-  padding: 0;
-  margin: 10px 0 0;
+.footer-content h3 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.footer-content ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.footer-content ul li {
+  margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.footer-logo {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
 }
 
-.footer-links li {
-  display: inline;
+.footer-logo img {
+  max-width: 100%;
 }
 
-.footer-links li a {
-  font-family: Aniko;
-  color: #ffffff !important; /* Kleur van de links in de footer */
+.footer-content .social-media ul li a:hover {
+  color: #f5f5f5;
+}
+
+.footer-content .social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content .social-media ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-content .social-media ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-decoration: none;
+  color: #f5f5f5;
+  width: 70%;
 }
 
-.footer-links li a:hover {
-  text-decoration: underline;
+.footer-content .social-media ul li a i {
+  margin-left: auto;
+  font-size: 1rem;
+  color: #f5f5f5;
 }
 
-.social-media {
-  margin-top: 10px;
+.footer-content .social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.social-media a {
-  margin: 0 10px;
-  display: inline-block;
+.footer-content .social-media-title {
+  margin-bottom: 15px;
 }
 
-.social-media img {
-  width: 24px;
-  height: 24px;
+.footer-content .social-media-title h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.footer-content .social-media-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content .social-media-list ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-content .social-media-list ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #f5f5f5;
+  width: 100%;
+  padding-top: 12px;
+}
+
+.footer-content .social-media-list ul li a i {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #f5f5f5;
 }
