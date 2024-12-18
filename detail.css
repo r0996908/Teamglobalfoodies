@@ -85,6 +85,7 @@ nav ul li {
 
 .details {
   flex: 1;
+  padding-top: 300px;
 }
 
 .details h1 {
