@@ -201,32 +201,3 @@ footer {
   width: 24px;
   height: 24px;
 }
-
-/* Responsive  */
-@media (max-width: 768px) {
-  .footer-links {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .social-media {
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer-content {
-    padding: 0 10px;
-  }
-
-  .social-media img {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-.logo-footer {
-  width: 5px;
-  height: 5px;
-  display: flex;
-}
